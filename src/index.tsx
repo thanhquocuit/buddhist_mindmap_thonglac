@@ -24,9 +24,18 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="phap-hanh" element={<PhapHanhPage />} />
-        <Route path="tri-kien-giai-thoat" element={<TriKienGiaiThoatPage />} />
-        <Route path="sach-noi" element={<SachNoiPage />} />
+        <Route
+          path={`/${process.env.PUBLIC_URL}/phap-hanh`}
+          element={<PhapHanhPage />}
+        />
+        <Route
+          path={`/${process.env.PUBLIC_URL}/tri-kien-giai-thoat`}
+          element={<TriKienGiaiThoatPage />}
+        />
+        <Route
+          path={`/${process.env.PUBLIC_URL}/sach-noi`}
+          element={<SachNoiPage />}
+        />
         <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
