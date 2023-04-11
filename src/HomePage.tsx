@@ -1,6 +1,9 @@
-import styled from "styled-components";
 import { Button, Card, Container, Nav } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import logo from "./static/img/logo.png";
+import Thay1 from "./static/img/Thay-nam-kiet-tuong-750x430.jpg";
+import Thay2 from "./static/img/Thay-ngoi-thien-Tam-Bat-Dong-750x430.jpg";
+import Thay3 from "./static/img/Thay-tham-lai-Hon-Son-2012-750x430.jpg";
 
 export function Header() {
   return (
@@ -14,7 +17,7 @@ export function Header() {
       <Nav.Item>
         <Nav.Link href="/">
           <img
-            src="/logo512.png"
+            src={logo}
             width="32px"
             height="32px"
             style={{ cursor: "pointer" }}
@@ -49,7 +52,7 @@ export default function HomePage() {
       <div className="d-flex justify-content-center gap-3">
         {/** Tri Kiến Giải Thoát */}
         <Card>
-          <Card.Img variant="top" src="/img/Thay-nam-kiet-tuong-750x430.jpg" />
+          <Card.Img variant="top" src={Thay1} />
           <Card.Body>
             <Card.Title>Tri Kiến Giải Thoát</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">
@@ -67,10 +70,7 @@ export default function HomePage() {
 
         {/** Pháp Hành */}
         <Card>
-          <Card.Img
-            variant="top"
-            src="/img/Thay-ngoi-thien-Tam-Bat-Dong-750x430.jpg"
-          />
+          <Card.Img variant="top" src={Thay2} />
           <Card.Body>
             <Card.Title>Pháp Hành</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">
@@ -88,10 +88,7 @@ export default function HomePage() {
 
         {/** Sách Nói */}
         <Card>
-          <Card.Img
-            variant="top"
-            src="/img/Thay-tham-lai-Hon-Son-2012-750x430.jpg"
-          />
+          <Card.Img variant="top" src={Thay3} />
           <Card.Body>
             <Card.Title>Sách Nói</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">
