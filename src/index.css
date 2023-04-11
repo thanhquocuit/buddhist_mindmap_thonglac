@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* fontawsome missing parts*/
+.fa-gear:before {
+  content: "\f013";
+}
+
+.fa-floppy-disk:before {
+  content: "\f0c7";
+}
+
+.fa-right-from-bracket {
+  content: "\f2f5";
+}
