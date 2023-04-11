@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/buddhist_mindmap_thonglac/static/css/main.1274f5ae.css",
-    "main.js": "/buddhist_mindmap_thonglac/static/js/main.e06e6253.js",
+    "main.js": "/buddhist_mindmap_thonglac/static/js/main.06a38850.js",
     "static/media/Thay-tham-lai-Hon-Son-2012-750x430.jpg": "/buddhist_mindmap_thonglac/static/media/Thay-tham-lai-Hon-Son-2012-750x430.e9709ee0e3d0d6ec5348.jpg",
     "static/media/Thay-ngoi-thien-Tam-Bat-Dong-750x430.jpg": "/buddhist_mindmap_thonglac/static/media/Thay-ngoi-thien-Tam-Bat-Dong-750x430.d14fe7d9d32d2aeb9058.jpg",
     "static/media/Thay-nam-kiet-tuong-750x430.jpg": "/buddhist_mindmap_thonglac/static/media/Thay-nam-kiet-tuong-750x430.7b56c15bce34b2bd2adc.jpg",
@@ -9,10 +9,10 @@
     "static/media/sound.gif": "/buddhist_mindmap_thonglac/static/media/sound.01cc9b1f5185ae1ec778.gif",
     "index.html": "/buddhist_mindmap_thonglac/index.html",
     "main.1274f5ae.css.map": "/buddhist_mindmap_thonglac/static/css/main.1274f5ae.css.map",
-    "main.e06e6253.js.map": "/buddhist_mindmap_thonglac/static/js/main.e06e6253.js.map"
+    "main.06a38850.js.map": "/buddhist_mindmap_thonglac/static/js/main.06a38850.js.map"
   },
   "entrypoints": [
     "static/css/main.1274f5ae.css",
-    "static/js/main.e06e6253.js"
+    "static/js/main.06a38850.js"
   ]
 }
