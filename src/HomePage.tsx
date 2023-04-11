@@ -99,7 +99,10 @@ export default function HomePage() {
             <Button
               className="w-100"
               variant="light"
-              onClick={() => navigate(`${process.env.PUBLIC_URL}/sach-noi`)}
+              onClick={() => {
+                debugger;
+                navigate(`${process.env.PUBLIC_URL}/sach-noi`);
+              }}
             >
               Truy Cập
             </Button>
