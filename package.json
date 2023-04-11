@@ -21,6 +21,7 @@
     "bootstrap": "^5.2.3",
     "draft-js": "^0.11.7",
     "draftjs-to-html": "^0.9.1",
+    "env-cmd": "^10.1.0",
     "html-to-draftjs": "^1.5.0",
     "lorem-ipsum": "^2.0.8",
     "react": "^18.2.0",
@@ -36,9 +37,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "env-cmd -f .env.dev react-scripts start",
     "build": "react-scripts build",
-    "build_github": "set PUBLIC_URL=/buddhist_mindmap_thonglac&& react-scripts build",
+    "build_github": "env-cmd -f .env.prod react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

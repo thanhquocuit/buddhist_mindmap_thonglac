@@ -15,7 +15,7 @@ export function Header() {
       style={{ minHeight: "3rem", marginTop: "0.5rem" }}
     >
       <Nav.Item>
-        <Nav.Link href="/">
+        <Nav.Link href={`${process.env.PUBLIC_URL}/`}>
           <img
             src={logo}
             width="32px"
@@ -61,7 +61,9 @@ export default function HomePage() {
             <Button
               className="w-100"
               variant="light"
-              onClick={() => navigate("/tri-kien-giai-thoat")}
+              onClick={() =>
+                navigate(`${process.env.PUBLIC_URL}/tri-kien-giai-thoat`)
+              }
             >
               Truy Cập
             </Button>
@@ -79,7 +81,7 @@ export default function HomePage() {
             <Button
               className="w-100"
               variant="light"
-              onClick={() => navigate("/phap-hanh")}
+              onClick={() => navigate(`${process.env.PUBLIC_URL}/phap-hanh`)}
             >
               Truy Cập
             </Button>
@@ -97,7 +99,7 @@ export default function HomePage() {
             <Button
               className="w-100"
               variant="light"
-              onClick={() => navigate("/sach-noi")}
+              onClick={() => navigate(`${process.env.PUBLIC_URL}/sach-noi`)}
             >
               Truy Cập
             </Button>
